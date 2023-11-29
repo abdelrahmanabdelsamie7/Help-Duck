@@ -1,0 +1,102 @@
+*
+{
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box; 
+    border: none;
+    outline: none;
+}
+:root 
+{
+    --bg-color : #09BAC0 ; 
+    --yellow : #fff000 ; 
+    --o-yellow : #fecc47 ; 
+    --oo-yellow:#f6ac3d ;
+    --orange : #ee6b2b ;  
+}
+body
+{
+    background-color: #09BAC0; 
+}
+#header 
+{
+    text-align: center; 
+    font-size: 30px; 
+    color: #ee6b2b ; 
+}
+.headerspan 
+{
+    color: #fff000;
+}
+input 
+{
+    text-align: center; 
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 0px;
+    font-size: 22px; 
+    width: 100%; 
+    cursor: pointer;
+    color: whitesmoke ; 
+    background-color: #09BAC0;
+}
+.row
+{
+    margin-top: 150px;
+}
+.water 
+{
+    color: #2389da ;
+    font-size: 70px; 
+    float: left;
+}
+.home 
+{
+    color:#ee6b2b;
+    font-size: 70px; 
+    float: right;
+}
+.duck 
+{ 
+    /*67*/
+    position: absolute;
+    width: 80px;
+    left: 17%;
+    transition: all 22s;
+}
+.note
+{
+    text-align: center; 
+    font-size: 17px; 
+    color: #f6ac3d; 
+}
+.footer
+{
+    margin-top: 100px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.created {
+    text-align: center;
+    margin-top: 50px;
+ }
+ .created h6 {
+     font-size: 15px; 
+     font-style: italic; 
+     color: var(--o-yellow);
+     cursor: pointer;
+ }
+ .created span i 
+ {
+     font-size: 19px; 
+     font-weight: 220; 
+    color: #ee6b2b;
+     padding: 9px;
+     cursor: pointer;
+ }
+ .created span i:hover 
+ {
+   color: #fff000; 
+   scale: 1.2;
+ }
